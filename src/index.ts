@@ -5,5 +5,4 @@ const matchReader = MatchReader.FromCsv('football.csv');
 matchReader.load()
 
 const report = Report.htmlWinsAnalysisReport('Man United')
-
 report.bulidAndPrintReport(matchReader.matches)
